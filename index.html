@@ -21,11 +21,11 @@
   </head>
 
   <body>
-   <div class="bg-black gutterHead">
+   <div class="bg-black gutterHead" id="start">
     <nav class="navbar navbar-expand-lg bg-black fondoheader">
       <div class="container-fluid">
         <div class="logohead">
-        <a class="navbar-brand headerblanco" href="#">Tamagotchi</a>
+        <a class="navbar-brand headerblanco" href="#start">Tamagotchi</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -42,13 +42,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link headerblanco" href="#">Personajes</a>
+              <a class="nav-link headerblanco" href="#sec-inst">¿Cómo jugar?</a>
             </li>
             <li class="nav-item">
               <a class="nav-link headerblanco">|</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link headerblanco" href="#">Jugar</a>
+              <a class="nav-link headerblanco" href="https://tamagotchi.anasofiacroda.repl.co">Jugar</a>
             </li>
           </ul>
         </div>
@@ -59,7 +59,7 @@
     <div class="container-fluid banner text-center">
     </div>
 
-    <div class="titulo">
+    <div class="titulo" id="sec01">
       <h1>Y2K <br> NOSTALGIA</h1>
     </p></div>
 
@@ -70,7 +70,7 @@
         </div>
         <div class="col-12 col-lg-6 paddingenmedio d-flex justify-content-center align-items-center">
           <div>
-          <h2 class="opake">The early 2000s were a hopeful time.</h2>
+          <h2 class="opake" >The early 2000s were a hopeful time.</h2>
           <p class="landing_p">The internet was booming but hadn’t yet busted. The future looked promising and shiny. Literally.
             Those of us who lived through the new millennium remember it: When a translucent, colorful iMac made our 
             hearts jump. When we wondered if we ought to get a long, black leather jacket like Neo’s. 
@@ -134,14 +134,19 @@
     <div class="extrañas">
     </div>
 
-    <div class="d-flex justify-content-center align-items-center  Juega">
+    <div class="d-flex justify-content-center align-items-center  Juega" id="sec-inst">
       <div>
-      <h2 class="opake">Juega ahora</h2>
+      <h2 class="opake">Instrucciones</h2>
+      <p class="landing_p">1. Da click en Tamagotchi para ir al juego.<br>2. Muévete con las flechas de tu teclado.<br>
+        3. Recoge todas las galletas para salir del laberinto.<br>
+      </p>
     </div>
     </div>
+    
+
 
     <div class="container-fluid text-center container-verde d-flex justify-content-center align-items-center">
-      <a href="#"> <img src="IMG/BotonTamagotchi.png" class="botonTam" /></a>
+      <a href="https://tamagotchi.anasofiacroda.repl.co"> <img src="IMG/BotonTamagotchi.png" class="botonTam" /></a>
     </div>
 
     <div class="bg-black">
@@ -149,14 +154,14 @@
    
       <div class="row justify-content-around w-100 ">
 
-        <div class="col">
+        <div class="col"><a href="#start">
           <img src="IMG/Boton_regresar.png"/>
-        </div>
-        <div class="col">
+        </div></a>
+        <div class="col"><a href="https://tamagotchi.anasofiacroda.repl.co">
           <img src="IMG/Boton_jugar.png" />
-        </div>
-        <div class="col">
-          <img src="IMG/Boton_personajes.png" />
+        </div></a>
+        <div class="col"><a href="#sec01">
+          <img src="IMG/Boton_como.png" /></a>
         </div>
       </div>
     </div>

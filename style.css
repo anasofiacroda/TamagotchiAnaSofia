@@ -98,7 +98,7 @@ a{
 
 .extrañas{
     background-image: url(IMG/extrañas.jpg);
-    height: 25vh;
+    height: 55vh;
     background-repeat: no-repeat;
     background-size: 75%;
     background-position: center;
@@ -112,9 +112,9 @@ a{
 
 .Juega{
     
-    text-align: center;
+    text-align: left;
     color: #788D81;
-    height: 20vh;
+    height: 30vh;
 }
 
 .botonTam{
@@ -154,6 +154,8 @@ a{
     .titulo{
         padding-left: 10px;
     }
+
+   
     
 
 }
